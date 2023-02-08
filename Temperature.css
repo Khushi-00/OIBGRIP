@@ -1,0 +1,40 @@
+*,
+*:Before,
+*:After{
+    Padding: 0;
+    Margin: 0;
+    Box-Sizing: Border-Box;
+    Font-Family: "Roboto Mono", Monospace;
+    Font-Size: 18px;
+}
+Body{
+    Background-Color: Red;
+}
+.Wrapper{
+    Width: 450px;
+    Background-Color: #Ffffff;
+    Padding: 70px 40px;
+    Position: Absolute;
+    Transform: Translate(-50%,-50%);
+    Left: 50%;
+    Top: 50%;
+    Box-Shadow: 0 20px 25px Rgba(0,0,0,0.25);
+    Border-Radius: 8px;
+    Display: Flex;
+    Justify-Content: Space-Between;
+}
+.Container{
+    Width: 45%;
+}
+Input{
+    Width: 100%;
+    Height: 50px;
+    Border-Radius: 5px;
+    Border: 2px Solid #D2d2d2;
+    Outline: None;
+    Margin-Top: 8px;
+    Padding: 0 10px;
+}
+Input:Focus{
+    Border-Color: #3164ff;
+}
